@@ -225,3 +225,232 @@ section h2 {
     color: white;
     margin-bottom: 1.2rem;
  }
+
+ .Réalisations{
+    padding: 80px;
+    text-align: center;
+ }
+
+.Réalisations h2{
+    color: #6C63FF;
+    margin-bottom: 10px;
+}
+
+.line{
+  width: 60px;
+  height: 4px;
+  background: #5b5be6;
+  margin: 12px auto 30px auto;
+  border-radius: 5px;
+}
+
+img {
+  width: 200%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.grille{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 10px;
+}
+
+.image{
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: O.3s;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.image:hover{
+    transform: translateY(-5px);
+}
+
+.image img{
+    width: 110%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 3px solid #6C63FF;
+}
+
+.image h3{
+    padding: 15px;
+    color: #6C63FF;
+}
+
+.image p{
+    padding: 0 15px;
+    font-size: 14px;
+    color: #555;
+}
+.tags{
+    padding: 10px 15px;
+}
+
+.tags span{
+    background: #eee;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+main h1{
+    color: #7257f6;
+    margin-bottom: 10px;
+}
+
+.contact-contrainer {
+    width: 800px;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0 , 0.05);
+}
+
+.contact-info h3 {
+    color: #7257f6;
+    margin-bottom: 1.5rem;
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.contact-info i {
+    color: #7257f6;
+    margin-right: 10px;
+}
+
+.social-apps {
+   margin-top: 2rem;
+   display: flex;
+   gap: 10px;
+}
+
+.app-link {
+   text-decoration: none;
+   padding: 10px 15px;
+   border-radius: 5px;
+   color: white;
+   font-size: 14px;
+   transition: 0.3s; 
+}
+
+.whatsapp {
+   background-color: #25D366;
+}
+
+.telegram {
+   background-color: #0088cc;
+}
+
+.app-link:hover {
+   opacity: 0.8;
+   transform: translate(-2px);
+}
+
+.form-group {
+   margin-bottom: 1.5rem;
+}
+
+.form-group input {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   outline: none;
+}
+
+.form-group input {
+   border-color: #7257f6;
+}
+.contact-form .btn {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.passion-section{
+  width: 90%;
+  max-width: 1000px;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+ .intro-tex {
+  color: #5c5c5c;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+ }
+
+ .passion-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 25px;
+ }
+
+ .passion-card{
+  background: white;
+  padding: 40px 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0 , 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+ }
+
+ .passion-card:hover {
+  transform: translateY(-10px);
+  border-color: #7257f6;
+  box-shadow: 0 15px 35px rgba(114,87,246,0.1);
+ }
+
+ .passion-icon{
+  width: 70px;
+  height: 70px;
+  background: #f0edff;
+  color: #7257f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+  font-size: 1.8rem;
+  transition:0.3s;
+ }
+
+
